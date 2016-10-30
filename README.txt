@@ -8,6 +8,9 @@
 
 30/10/2016
 
--Created navigation bar for webpages. (Reference Site: https://www.webcodegeeks.com/html5/html5-navigation-bar-example/)
--Implemented CSS pages to make navigation bars more presentable and inline with each other. (Reference Site: https://www.webcodegeeks.com/html5/html5-navigation-bar-example/)
--
+-Created navigation bar for webpages. (Reference Site: https://www.webcodegeeks.com/html5/html5-navigation-bar-example/: Remi Goyard, 6th March 2015)
+-Implemented CSS pages to make navigation bars more presentable and inline with each other. (Reference Site: https://www.webcodegeeks.com/html5/html5-navigation-bar-example/: Remi Goyard, 6th March 2015)
+-Added Google font for index.html. (Oswald)
+-Committed changes to GitHub.
+-Added CV Photo onto index page.
+-Committed changes to GitHub.

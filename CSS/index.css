@@ -1,5 +1,43 @@
 /*Jack S Veasey (16425208)*/
 h1 {
-  text-align: center;
-  
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  margin: 10px;
+  padding: 0;
+}
+
+nav {
+  background-color: #000080;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display:inline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  background-color: #000080;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 0.5em;
+}
+
+img {
+  align-items: center;
+}
+
+footer p {
+  font-size: 5px;
+  text-align: right;
 }
