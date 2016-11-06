@@ -14,9 +14,17 @@
 -Committed changes to GitHub.
 -1 Hour Total.
 
-02/10/2016
+02/11/2016
 -Re-organized folders and files to make it easier for system to navigate.
 -Added right-column next to photo on home page.
 -Applied brief information on site and myself on home page.
+-Committed to GitHub.
+-1 Hour Total.
+
+06/11/2016
+-Applied CSS styles to Bio.CSS for Bio.html.
+-Added Footer to Bio.html.
+-Added 'Source Sans Pro' to header in left column of Bio.html.
+-Added a left column for information about me.
 -Committed to GitHub.
 -1 Hour Total.
