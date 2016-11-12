@@ -16,7 +16,7 @@ body {
 
 img {
   width: 50%; /*Makes image's width 50% (Half) of its orginal size.*/
-  height: 250px; /*Shortens the images height to 250 pixels.*/
+  height: 50%; /*Shortens the images height to 250 pixels.*/
 }
 
 nav {

@@ -35,6 +35,7 @@ nav ul li a {
   background-color: #000080;
   display: flex;; /*Displays nav bar in flex*/
   flex-direction: row; /*Displays nav bar as a row*/
+  justify-content: space-between;
   line-height: 2em;
   padding: 0.5em 0.5em; /*Spaces the blocks in nav bar by 0.5em (5 pixels) in height and width*/
 }
@@ -46,10 +47,29 @@ h3 {
 
 .left-column {
   width: 50%;
-  height: 250px;
+  height: auto;
   float: left; /*Places column on left hand side*/
   background-color: rgb(0, 173, 208);
   color: #373239;
+}
+
+.right-column {
+  width: 50%;
+  height: auto;
+  float: right; /*Places column on right hand side*/
+  background-color: rgb(212, 201, 1);
+  color: #373239;
+}
+
+.thumbnail-pic {
+  display: inline-block;
+  width: 40%;
+  float: right;
+}
+
+.thumbnail-image {
+  display: inline-block;
+  width: 50%;
 }
 
 footer p {

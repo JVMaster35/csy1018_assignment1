@@ -28,3 +28,9 @@
 -Added a left column for information about me.
 -Committed to GitHub.
 -1 Hour Total.
+
+12/11/2016
+-Added information onto bio page.
+-Addition of right-column and images for bio.html.
+-Committed to GitHub.
+-1 Hour Total.
