@@ -34,3 +34,7 @@
 -Addition of right-column and images for bio.html.
 -Committed to GitHub.
 -1 Hour Total.
+
+16/11/2016
+-Began work on CV webpage: Added columns, information, colour, text format, etc.
+-2 Hours Total.
