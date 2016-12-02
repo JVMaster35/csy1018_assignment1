@@ -9,6 +9,13 @@ h1 {
   background-color: #669; /*changes background color*/
 }
 
+div img {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  animation: JVanimation 5s linear infinite;
+}
+
 body {
   margin: 10px; /*10 pixels*/
   padding: 0;
@@ -23,25 +30,28 @@ nav {
   background-color: #000080; /*Sets Nav Bar's background color*/
   margin: 0;
   overflow: hidden;
+  justify-content: space-around;
+  display:flex; /*Aligns text in list together*/
+  flex-direction: row; /*Displays nav bar as a row*/
+  align-items: center;
 }
 
-nav ul {
+ul {
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
-nav ul li {
-  display:inline-block; /*Aligns text in list together*/
+li {
   list-style-type: none;
 }
 
-nav ul li a {
+li a {
+  display: flex;
   color: rgb(255, 255, 255);
   background-color: #000080;
-  display: flex;; /*Displays nav bar in flex*/
-  flex-direction: row; /*Displays nav bar as a row*/
   line-height: 2em;
-  padding: 0.5em 0.5em; /*Spaces the blocks in nav bar by 0.5em (5 pixels) in height and width*/
+  padding: 0.5em 4em; /*Spaces the blocks in nav bar by 0.5em (5 pixels) in height and width*/
 }
 
 footer p {
@@ -51,8 +61,14 @@ footer p {
 
 .right-column {
   width: 50%;
-  height: 250px;
+  height: 51%;
   float: right; /*Places column on right hand side*/
   background-color: rgb(159, 104, 196);
   color: #373239;
+}
+
+@keyframes JVanimation {
+  50% {
+    transform: rotateY(180deg);
+  }
 }
