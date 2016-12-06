@@ -50,4 +50,9 @@
 -Updated and modified list alignment for CV.
 -Committed to GitHub. (Eighth)
 -15 Minutes Total.
+
+06/12/2016
+-Updated HTML Errors on CV and Bio.
+-Committed to GitHub. (Ninth)
+-30 Minutes Total.
 -Project Finished.

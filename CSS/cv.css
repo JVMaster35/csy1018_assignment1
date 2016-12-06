@@ -9,17 +9,17 @@ nav {
   align-items: center;
 }
 
-ul {
+nav ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-li {
+nav ul li {
   list-style-type: none;
 }
 
-li a {
+nav ul li a {
   display: flex;
   color: rgb(255, 255, 255);
   background-color: #000080;
@@ -60,13 +60,25 @@ h3 {
   text-align: center;
 }
 
-p1 {
-  font-weight: bold;
-}
 
 footer p {
   font-size: 10px; /*Sets font size by 10 pixels*/
   text-align: right; /*Aligns text to the right*/
+}
+
+.Secondary-Education li {
+  display: block;
+  list-style-position: inside;
+}
+
+.BTEC-Education li {
+  display: block;
+  list-style-position: inside;
+}
+
+.University li {
+  display: block;
+  list-style-position: inside;
 }
 
 .right-column {
@@ -75,18 +87,6 @@ footer p {
   float: right; /*Places column on right hand side*/
   background-color: rgb(80, 89, 246);
   color: #373239;
-}
-
-ul1 {
- text-align: center;
-}
-
-ul2 {
- text-align: center;
-}
-
-ul3 {
- text-align: center;
 }
 
 .left-column {
