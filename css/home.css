@@ -12,28 +12,37 @@ h1 {
 div img {
   width: 10%;
   height: 5%;
-  position: absolute;
+  position: fixed;
+  top: 0;
   animation: JVanimation 5s linear infinite;
 }
 
 body {
-  margin: 10px; /*10 pixels*/
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(1, 169, 217);
 }
 
 img {
-  width: 50%; /*Makes image's width 50% (Half) of its orginal size.*/
+  display: block;
+  margin: auto;
+  width: 70%; /*Makes image's width 50% (Half) of its orginal size.*/
   height: 50%; /*Shortens the images height to 250 pixels.*/
+  align-items: center;
+  align-content: center;
 }
 
 nav {
   background-color: #000080; /*Sets Nav Bar's background color*/
-  margin: 0;
   overflow: hidden;
-  justify-content: space-around;
+  justify-content: center;
   display:flex; /*Aligns text in list together*/
   flex-direction: row; /*Displays nav bar as a row*/
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 ul {
@@ -51,20 +60,32 @@ li a {
   color: rgb(255, 255, 255);
   background-color: #000080;
   line-height: 2em;
-  padding: 0.5em 4em; /*Spaces the blocks in nav bar by 0.5em (5 pixels) in height and width*/
+  padding: 0.5em 2em; /*Spaces the blocks in nav bar by 0.5em (5 pixels) in height and width*/
 }
 
 footer p {
+  background-color:  #000080;
+  color: rgb(255, 255, 255);
   font-size: 10px; /*Sets font size by 10 pixels*/
   text-align: right; /*Aligns text to the right*/
+  font-family: 'Oswald', sans-serif;
 }
 
-.right-column {
-  width: 50%;
-  height: 51%;
-  float: right; /*Places column on right hand side*/
-  background-color: rgb(159, 104, 196);
+.bottom-column {
+  width: 100%;
+  height: 25%;
   color: #373239;
+  border: 3px solid green;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
 }
 
 @keyframes JVanimation {

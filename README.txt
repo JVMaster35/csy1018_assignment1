@@ -55,4 +55,9 @@
 -Updated HTML Errors on CV and Bio.
 -Committed to GitHub. (Ninth)
 -30 Minutes Total.
--Project Finished.
+
+07/12/2016
+-Improved body and padding for stylesheets for all page files.
+-Fixed position of navigation bars and animation.
+-Committed to GitHub. (Tenth)
+-1 hour total.
