@@ -61,3 +61,9 @@
 -Fixed position of navigation bars and animation.
 -Committed to GitHub. (Tenth)
 -1 hour total.
+
+09/12/2016
+-Altered headings for webpages so that they can be fully seen on pages.
+-Fixed footer covering columns on CV page.
+-Committed to GitHub. (Eleventh Fixed Commitment)
+-Total 1 Hour.
