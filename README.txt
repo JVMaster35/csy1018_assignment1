@@ -52,7 +52,7 @@
 -15 Minutes Total.
 
 06/12/2016
--Updated HTML Errors on CV and Bio.
+-Updated HTML & CSS Errors on CV and Bio.
 -Committed to GitHub. (Ninth)
 -30 Minutes Total.
 
@@ -64,6 +64,15 @@
 
 09/12/2016
 -Altered headings for webpages so that they can be fully seen on pages.
--Fixed footer covering columns on CV page.
+-Tried fixing footer for CV page.
 -Committed to GitHub. (Eleventh Fixed Commitment)
 -Total 1 Hour.
+
+14/12/2016
+-Removed Columns from CV and aligned all text with centre, due to columns being unable to stay on left or right side of webpage.
+-Fixed Navigation Bar on all pages so that they shrink and grow along with webpages.
+-Refocused on font size and line spacing for webpages.
+-Adjusted the padding and margin of a few areas within the webpages to make them more spacious.
+-Validated pages using HTML & CSS validators.
+-Committed to GitHub. (Twelfth Fixer Commitment)
+-Total 1 Hour & 30 Minutes.

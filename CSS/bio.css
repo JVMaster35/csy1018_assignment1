@@ -3,8 +3,6 @@ h1 {
   text-align: center; /*Aligns text in the center of lin*/
   font-family: 'Oswald', sans-serif; /*Changesw font of text to Oswald*/
   font-size: 50px;
-  margin: 0 auto;
-  padding: 40px 0;
 }
 
 .header {
@@ -13,7 +11,7 @@ h1 {
 }
 
 div img {
-  width: 10%;
+  width: 8%;
   height: 5%;
   position: fixed;
   top: 0;
@@ -24,35 +22,26 @@ body {
   background-color: rgb(1, 169, 217);
 }
 
-nav {
+nav ul {
   background-color: #000080; /*Sets Nav Bar's background color*/
-  overflow: hidden;
-  justify-content: center;
-  display:flex; /*Aligns text in list together*/
-  flex-direction: row; /*Displays nav bar as a row*/
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-}
-
-ul {
+  width: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
+  list-style: none;
 }
 
-li {
-  list-style-type: none;
-}
-
-li a {
-  display: flex;
+nav ul li a {
+  flex: 1 1 auto;
   color: rgb(255, 255, 255);
   background-color: #000080;
   line-height: 2em;
-  padding: 0.5em 2em; /*Spaces the blocks in nav bar by 0.5em (5 pixels) in height and width*/
+  margin: auto;
 }
 
 footer p {
@@ -74,6 +63,10 @@ h3 {
   height: auto;
   float: left; /*Places column on left hand side*/
   color: #373239;
+  font-size: 18px;
+  line-height: 125%;
+  margin: auto;
+  padding: inherit;
 }
 
 .right-column {
@@ -81,6 +74,10 @@ h3 {
   height: auto;
   float: right; /*Places column on right hand side*/
   color: #373239;
+  font-size: 18px;
+  line-height: 125%;
+  margin: auto;
+  padding: inherit;
 }
 
 .thumbnail-pic {

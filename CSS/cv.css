@@ -1,33 +1,24 @@
 /*Jack S Veasey (16425208)*/
-nav {
+nav ul {
   background-color: #000080; /*Sets Nav Bar's background color*/
-  margin: 0;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  display:flex; /*Aligns text in list together*/
-  flex-direction: row; /*Displays nav bar as a row*/
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-}
-
-nav ul {
+  width: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
+  list-style: none;
 }
 
-nav ul li {
-  list-style-type: none;
-}
 nav ul li a {
-  display: flex;
+  flex: 1 1 auto;
   color: rgb(255, 255, 255);
   background-color: #000080;
   line-height: 2em;
-  padding: 0.5em 2em; /*Spaces the blocks in nav bar by 0.5em (5 pixels) in height and width*/
+  margin: auto;
 }
 
 h1 {
@@ -35,7 +26,7 @@ h1 {
   font-family: 'Oswald', sans-serif; /*Changes font of text to Oswald*/
   font-size: 50px;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 70px 0;
 }
 
 .header {
@@ -44,14 +35,21 @@ h1 {
 }
 
 div img {
-  width: 10%;
+  width: 8%;
   height: 5%;
   position: fixed;
   top: 0;
+  left: 0;
   animation: JVanimation 5s linear infinite;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  line-height: 100%;
+  text-align: center;
   background-color: rgb(1, 169, 217);
 }
 
@@ -65,45 +63,41 @@ h3 {
   text-align: center;
 }
 
-.right-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 50%;
-  height: auto;
-  color: #373239;
-}
-
-.left-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 50%;
-  height: auto;
-  color: #373239;
+h4 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
 }
 
 .Secondary-Education li {
   display: block;
   list-style-position: inside;
+  font-size: 18px;
+  line-height: 125%;
 }
 
 .BTEC-Education li {
   display: block;
   list-style-position: inside;
+  font-size: 18px;
+  line-height: 125%;
 }
 
 .University li {
   display: block;
   list-style-position: inside;
+  font-size: 18px;
+  line-height: 125%;
 }
 
+p {
+  font-size: 18px;
+  line-height: 125%;
+}
 
 footer p {
   background-color: #000080;
   color: rgb(255, 255, 255);
+  padding: 1em;
   font-size: 10px; /*Sets font size by 10 pixels*/
   text-align: right; /*Aligns text to the right*/
   font-family: 'Oswald', sans-serif;
