@@ -76,3 +76,4 @@
 -Validated pages using HTML & CSS validators.
 -Committed to GitHub. (Twelfth Fixer Commitment)
 -Total 1 Hour & 30 Minutes.
+-Finished Assignment.
