@@ -84,3 +84,4 @@
 -Separated all files into two folders for submission: htdocs and supporting_docs.
 -Committed changes to GitHub. (Submission Organization)
 -Re-committed assignment due to GitHub failure. (Reorganization)
+-Fixed bugs in pages when trying to view pages on GitHub and committed. (Fixed Bugs)
