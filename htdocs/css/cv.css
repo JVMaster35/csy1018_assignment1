@@ -1,0 +1,110 @@
+/*Jack S Veasey (16425208)*/
+nav ul {
+  background-color: #000080; /*Sets Nav Bar's background color*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  flex: 1 1 auto;
+  color: rgb(255, 255, 255);
+  background-color: #000080;
+  line-height: 2em;
+  margin: auto;
+}
+
+h1 {
+  text-align: center; /*Aligns text in the center of lin*/
+  font-family: 'Oswald', sans-serif; /*Changes font of text to Oswald*/
+  font-size: 50px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.header {
+  width: 100%; /*for fluid layout*/
+  background-color: #669; /*changes background color*/
+}
+
+div img {
+  width: 8%;
+  height: 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: JVanimation 5s linear infinite;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  line-height: 100%;
+  text-align: center;
+  background-color: rgb(1, 169, 217);
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.Secondary-Education li {
+  display: block;
+  list-style-position: inside;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+.BTEC-Education li {
+  display: block;
+  list-style-position: inside;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+.University li {
+  display: block;
+  list-style-position: inside;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 125%;
+}
+
+footer p {
+  background-color: #000080;
+  color: rgb(255, 255, 255);
+  padding: 1em;
+  font-size: 10px; /*Sets font size by 10 pixels*/
+  text-align: right; /*Aligns text to the right*/
+  font-family: 'Oswald', sans-serif;
+}
+
+@keyframes JVanimation {
+  50% {
+    transform: rotateY(180deg);
+  }
+}

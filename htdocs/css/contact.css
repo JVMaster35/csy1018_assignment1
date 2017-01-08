@@ -1,0 +1,122 @@
+/*Jack S Veasey (16425208)*/
+h1 {
+  text-align: center; /*Aligns text in the center of lin*/
+  font-family: 'Oswald', sans-serif; /*Changesw font of text to Oswald*/
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.header {
+  width: 100%; /*for fluid layout*/
+  background-color: #669; /*changes background color*/
+}
+
+div img {
+  width: 8%;
+  height: 5%;
+  position: fixed;
+  top: 0;
+  animation: JVanimation 5s linear infinite;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(1, 169, 217);
+}
+
+nav ul {
+  background-color: #000080; /*Sets Nav Bar's background color*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  flex: 1 1 auto;
+  color: rgb(255, 255, 255);
+  background-color: #000080;
+  line-height: 2em;
+  margin: auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 125%;
+}
+
+p a {
+  font-size: 18px;
+  padding: 15px;
+}
+
+footer p {
+  background-color:  #000080;
+  color: rgb(255, 255, 255);
+  font-size: 10px; /*Sets font size by 10 pixels*/
+  text-align: right; /*Aligns text to the right*/
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.form-container {
+  max-width:960px;
+  margin:0 auto;
+  background:#fff;
+  border-radius:10px;
+  box-sizing:border-box;
+  padding:20px;
+  overflow:hidden;
+  color:#8A00A7;
+}
+
+input:not([type=submit]):not([type=file]):not([type=button]){
+  border-radius:5px;
+  border:2px solid #dadada;
+  height:25px;
+  line-height:25px;
+  font-family: 'Noticia Text', serif;
+  padding-left:5px;
+  outline-color:#0083ff;
+}
+
+textarea{
+  border-radius:5px;
+  border:2px solid #dadada;
+  line-height:25px;
+  font-family: 'Noticia Text', serif;
+  padding-left:5px;
+  outline-color:#0083ff;
+}
+
+input[type="button"], input[type="submit"] {
+  background:#f2f2f2;
+  border:2px solid #dadada;
+  border-radius:5px;
+  width:75px;
+  line-height:25px;
+  text-transform:uppercase;
+  color:#999;
+  outline:#0083ff;
+}
+
+input[type="submit"]:hover ,
+input[type="button"]:hover {
+  border:2px solid #0083ff;
+  border-radius:5px;
+  color:#8A00A7;
+  cursor:pointer;
+}
+
+@keyframes JVanimation {
+  50% {
+    transform: rotateY(180deg);
+  }
+}
